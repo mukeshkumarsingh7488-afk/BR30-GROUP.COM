@@ -1,7 +1,7 @@
 export default function Contact() {
   return (
     <>
-      <section className="contact" id="Connect" data-screen-label="06 Contact">
+      <section className="contact" id="contact" data-screen-label="06 Contact">
         <div className="container">
           <div className="contact-grid">
             <div className="contact-text">

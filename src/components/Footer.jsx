@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 export default function Footer() {
   return (
     <>
@@ -8,7 +10,6 @@ export default function Footer() {
               <span className="brand-logo">
                 <img src="https://i.ibb.co/KxnQc4gx/BR30-LOGO1.png" alt="BR30 Group Logo" />
               </span>
-
               <span className="brand-text">
                 <span className="brand-name">BR30 GROUP</span>
                 <span className="brand-tag">Trading • Digital Ecosystem • Innovation</span>
@@ -24,7 +25,7 @@ export default function Footer() {
               <a href="https://www.threads.com/@br30traderofficial" target="_blank" rel="noreferrer" aria-label="Threads">
                 <i className="fa-brands fa-threads"></i>
               </a>
-              <a href="https://www.linkedin.com/in/mukesh-raj-b75a65253?utm_source=share_via&utm_content=profile&utm_medium=member_android" target="_blank" rel="noreferrer" aria-label="LinkedIn">
+              <a href="https://www.linkedin.com/in/mukesh-raj-b75a65253" target="_blank" rel="noreferrer" aria-label="LinkedIn">
                 <i className="fa-brands fa-linkedin"></i>
               </a>
               <a href="https://wa.me/916200986380?text=Hello%20BR30%20Group%20Team%2C%20mujhe%20help%20chahiye..." target="_blank" rel="noreferrer" aria-label="WhatsApp">
@@ -47,7 +48,7 @@ export default function Footer() {
                   <a href="/#manifesto">Vision Plan</a>
                 </li>
                 <li>
-                  <a href="/#Connect">Founder</a>
+                  <a href="/#contact">Founder</a>
                 </li>
               </ul>
             </div>
@@ -59,10 +60,10 @@ export default function Footer() {
                   <a href="/#join">Who Can Join</a>
                 </li>
                 <li>
-                  <a href="/#JoinBanner">Join BR30</a>
+                  <a href="/#join-banner">Join BR30</a>
                 </li>
                 <li>
-                  <a href="/contact">Contact Team</a>
+                  <Link to="/contact">Contact Team</Link>
                 </li>
               </ul>
             </div>
@@ -100,7 +101,7 @@ export default function Footer() {
             <span>© 2026 BR30 Group · All rights reserved.</span>
             <span className="satire">BR30 GROUP</span>
             <span className="foot-links">
-              <a href="/privacy">Privacy Policy</a> · <a href="/terms">Terms & Conditions</a> · <a href="/refund">Refund Policy</a> · <a href="/about">About Us</a> · <a href="/contact">Contact Us</a>
+              <Link to="/privacy">Privacy Policy</Link> · <Link to="/terms">Terms & Conditions</Link> · <Link to="/refund">Refund Policy</Link> · <Link to="/about">About Us</Link> · <Link to="/contact">Contact Us</Link>
             </span>
           </div>
         </div>
