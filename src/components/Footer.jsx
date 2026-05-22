@@ -47,7 +47,7 @@ export default function Footer() {
                   <a href="/#manifesto">Vision Plan</a>
                 </li>
                 <li>
-                  <a href="/#contact">Founder</a>
+                  <a href="/#connect">Founder</a>
                 </li>
               </ul>
             </div>
