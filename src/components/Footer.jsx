@@ -1,112 +1,99 @@
 import { Link } from "react-router-dom";
+
 export default function Footer() {
   return (
     <>
       <footer className="footer">
-        <div className="footer-top container">
+        <div className="footer-wrap">
           <div className="foot-brand">
             <div className="brand">
-              <span className="brand-logo">
-                <img src="https://i.ibb.co/KxnQc4gx/BR30-LOGO1.png" alt="BR30 Group Logo" />
-              </span>
-              <span className="brand-text">
-                <span className="brand-name">BR30 GROUP</span>
-                <span className="brand-tag">Trading • Digital Ecosystem • Innovation</span>
-              </span>
+              <img src="https://i.ibb.co/KxnQc4gx/BR30-LOGO1.png" alt="BR30 Group Logo" />
+
+              <div>
+                <h2>BR30 GROUP</h2>
+
+                <p>TRADING • DIGITAL ECOSYSTEM • INNOVATION</p>
+              </div>
             </div>
 
             <p className="foot-blurb">Empowering traders with logic, psychology, and high-performance marketplace solutions. Join India's elite trading community.</p>
 
             <div className="footer-socials">
-              <a href="https://x.com/MukeshKuma48159" target="_blank" rel="noreferrer" aria-label="Twitter X">
+              <a href="https://x.com/MukeshKuma48159" target="_blank" rel="noreferrer">
                 <i className="fa-brands fa-x-twitter"></i>
               </a>
-              <a href="https://www.threads.com/@br30traderofficial" target="_blank" rel="noreferrer" aria-label="Threads">
-                <i className="fa-brands fa-threads"></i>
+
+              <a href="https://www.instagram.com/br30Traderofficial" target="_blank" rel="noreferrer">
+                <i className="fa-brands fa-instagram"></i>
               </a>
-              <a href="https://www.linkedin.com/in/mukesh-raj-b75a65253" target="_blank" rel="noreferrer" aria-label="LinkedIn">
-                <i className="fa-brands fa-linkedin"></i>
+
+              <a href="https://www.youtube.com/@br30traderofficial" target="_blank" rel="noreferrer">
+                <i className="fa-brands fa-youtube"></i>
               </a>
-              <a href="https://wa.me/916200986380?text=Hello%20BR30%20Group%20Team%2C%20mujhe%20help%20chahiye..." target="_blank" rel="noreferrer" aria-label="WhatsApp">
-                <i className="fa-brands fa-whatsapp"></i>
+
+              <a href="https://t.me/+hBAT4kWo63A4ZWY1" target="_blank" rel="noreferrer">
+                <i className="fa-brands fa-telegram"></i>
               </a>
-              <a href="mailto:support.br30trader@gmail.com?subject=BR30%20Group%20Inquiry" aria-label="Gmail">
+
+              <a href="mailto:support.br30trader@gmail.com">
                 <i className="fa-solid fa-envelope"></i>
               </a>
             </div>
           </div>
 
-          <div className="foot-cols">
+          <div className="foot-menu">
             <div className="foot-col">
-              <h4>BR30 Group</h4>
-              <ul>
-                <li>
-                  <a href="/#vision">Vision</a>
-                </li>
-                <li>
-                  <a href="/#manifesto">Vision Plan</a>
-                </li>
-                <li>
-                  <a href="/#connect">Founder</a>
-                </li>
-              </ul>
+              <h4>BR30 GROUP</h4>
+
+              <a href="/#vision">Vision</a>
+
+              <a href="/#manifesto">Vision Plan</a>
+
+              <a href="/#connect">Founder</a>
             </div>
 
             <div className="foot-col">
-              <h4>Get involved</h4>
-              <ul>
-                <li>
-                  <a href="/#join">Who Can Join</a>
-                </li>
-                <li>
-                  <a href="/#join-banner">Join BR30</a>
-                </li>
-                <li>
-                  <Link to="/contact">Contact Team</Link>
-                </li>
-              </ul>
+              <h4>GET INVOLVED</h4>
+
+              <a href="/#join">Who Can Join</a>
+
+              <a href="/#join-banner">Join BR30</a>
+
+              <Link to="/contact">Contact Team</Link>
             </div>
 
             <div className="foot-col">
-              <h4>Follow</h4>
-              <ul>
-                <li>
-                  <a href="https://www.facebook.com/share/1DDJYGYYDf/" target="_blank" rel="noreferrer">
-                    Facebook
-                  </a>
-                </li>
-                <li>
-                  <a href="https://www.instagram.com/br30Traderofficial" target="_blank" rel="noreferrer">
-                    Instagram
-                  </a>
-                </li>
-                <li>
-                  <a href="https://www.youtube.com/@br30traderofficial" target="_blank" rel="noreferrer">
-                    YouTube
-                  </a>
-                </li>
-                <li>
-                  <a href="https://t.me/+hBAT4kWo63A4ZWY1" target="_blank" rel="noreferrer">
-                    Telegram
-                  </a>
-                </li>
-              </ul>
+              <h4>FOLLOW</h4>
+
+              <a href="https://www.facebook.com/share/1DDJYGYYDf/" target="_blank" rel="noreferrer">
+                Facebook
+              </a>
+
+              <a href="https://www.instagram.com/br30Traderofficial" target="_blank" rel="noreferrer">
+                Instagram
+              </a>
+
+              <a href="https://www.youtube.com/@br30traderofficial" target="_blank" rel="noreferrer">
+                YouTube
+              </a>
+
+              <a href="https://t.me/+hBAT4kWo63A4ZWY1" target="_blank" rel="noreferrer">
+                Telegram
+              </a>
             </div>
           </div>
         </div>
 
         <div className="footer-bottom">
-          <div className="container fb-inner">
-            <span>© 2026 BR30 Group · All rights reserved.</span>
-            <span className="satire">BR30 GROUP</span>
-            <span className="foot-links">
-              <Link to="/privacy">Privacy Policy</Link> · <Link to="/terms">Terms & Conditions</Link> · <Link to="/refund">Refund Policy</Link> · <Link to="/about">About Us</Link> · <Link to="/contact">Contact Us</Link>
-            </span>
-          </div>
+          <span>© 2026 BR30 Group · All rights reserved.</span>
+
+          <span className="foot-links">
+            <Link to="/privacy">Privacy Policy</Link> · <Link to="/terms">Terms & Conditions</Link> · <Link to="/refund">Refund Policy</Link> · <Link to="/about">About Us</Link> · <Link to="/contact">Contact Us</Link>
+          </span>
         </div>
       </footer>
 
-      <style>{`.footer{background:#120800;color:#f5f0e6;padding-top:70px;font-family:"Poppins",Arial,sans-serif}.footer-top{display:grid;grid-template-columns:1.1fr 1.4fr;gap:70px;max-width:1400px;margin:0 auto;padding:0 80px 60px}.foot-brand .brand{display:flex;align-items:center;gap:16px;margin-bottom:24px}.foot-brand .brand-logo img{width:76px;height:76px;object-fit:contain;display:block}.foot-brand .brand-name{display:block;font-size:30px;line-height:1;font-weight:900;color:#f5f0e6}.foot-brand .brand-tag{display:block;margin-top:6px;color:#ff7a00!important;font-size:13px;font-weight:800;letter-spacing:.14em;text-transform:uppercase}.foot-blurb{font-size:17px;line-height:1.75;color:#b8aa98;max-width:520px;margin:0}.footer-socials{display:flex;align-items:center;gap:16px;margin-top:26px}.footer-socials a{width:50px;height:50px;border-radius:50%;background:#050505;color:#fff;display:flex;align-items:center;justify-content:center;text-decoration:none;font-size:22px;border:1px solid rgba(97,255,75,.25);transition:.28s}.footer-socials a:hover{background:#61ff4b;color:#000;transform:translateY(-5px);box-shadow:0 0 22px rgba(97,255,75,.35)}.foot-cols{display:grid;grid-template-columns:repeat(3,1fr);gap:48px}.foot-col h4{color:#72ff3b;font-size:13px;letter-spacing:.22em;margin:0 0 24px;text-transform:uppercase}.foot-col h4::after{content:"";display:block;width:100%;height:1px;background:rgba(255,255,255,.12);margin-top:16px}.foot-col ul{list-style:none;padding:0;margin:0}.foot-col li{margin-bottom:16px}.foot-col a{text-decoration:none;color:#cdbfae;font-size:16px;transition:.25s}.foot-col a:hover{color:#72ff3b}.footer-bottom{border-top:1px solid rgba(255,255,255,.08)}.fb-inner{max-width:1400px;margin:0 auto;padding:25px 80px;display:flex;align-items:center;justify-content:space-between;gap:22px;flex-wrap:wrap}.fb-inner>span{font-size:12px;letter-spacing:.18em;text-transform:uppercase;color:#a6947e}.satire{background:#61ff4b!important;color:#000!important;font-weight:900!important;letter-spacing:.18em;padding:8px 18px}.foot-links a{text-decoration:none;color:#a6947e;transition:.25s}.foot-links a:hover{color:#72ff3b}@media(max-width:991px){.footer-top{grid-template-columns:1fr;padding:0 25px 50px}.foot-cols{grid-template-columns:1fr 1fr}.fb-inner{padding:25px;flex-direction:column;text-align:center}}@media(max-width:600px){.foot-cols{grid-template-columns:1fr}.foot-brand .brand{align-items:flex-start}.foot-brand .brand-name{font-size:24px}.foot-brand .brand-logo img{width:64px;height:64px}.footer-socials a{width:44px;height:44px;font-size:19px}}`}</style>
+      <style>{`html,body{max-width:100%;overflow-x:hidden}.footer{width:100%;overflow:hidden;background:#120800;color:#f5f0e6;font-family:"Poppins",Arial,sans-serif;padding:55px 0 0}.footer-wrap{width:min(1120px,100%);margin:0 auto;padding:0 22px 45px;display:grid;grid-template-columns:1fr 1.25fr;gap:55px}.brand{display:flex;align-items:center;gap:15px;margin-bottom:22px}.brand img{width:64px;height:64px;border-radius:50%;object-fit:cover;flex:0 0 auto}.brand h2{font-size:30px;line-height:1;color:#f5f0e6;margin:0;font-weight:900}.brand p{font-size:12px;color:#ff7a00;margin:8px 0 0;font-weight:800;letter-spacing:.12em;line-height:1.5}.foot-blurb{color:#c7b8a4;font-size:17px;line-height:1.8;max-width:520px;margin:0}.footer-socials{display:flex;gap:14px;margin-top:28px;flex-wrap:wrap}.footer-socials a{width:48px;height:48px;border-radius:50%;display:flex;align-items:center;justify-content:center;background:#050505;color:#fff;text-decoration:none;font-size:21px;border:1px solid rgba(97,255,75,.28);transition:.3s}.footer-socials a:hover{background:#61ff4b;color:#000;transform:translateY(-5px);box-shadow:0 0 20px rgba(97,255,75,.35)}.foot-menu{display:grid;grid-template-columns:repeat(3,1fr);gap:42px}.foot-col h4{color:#72ff3b;font-size:13px;letter-spacing:.22em;margin:0 0 24px;text-transform:uppercase}.foot-col h4::after{content:"";display:block;height:1px;background:rgba(255,255,255,.15);margin-top:16px;width:100%}.foot-col a{display:block;color:#cdbfae;text-decoration:none;font-size:17px;margin-bottom:16px;transition:.25s;line-height:1.4}.foot-col a:hover{color:#72ff3b;transform:translateX(4px)}.footer-bottom{border-top:1px solid rgba(255,255,255,.08);padding:22px;text-align:center;color:#a6947e;font-size:12px;letter-spacing:.15em;text-transform:uppercase}.foot-links{display:block;margin-top:12px}.foot-links a{color:#a6947e;text-decoration:none;transition:.25s}.foot-links a:hover{color:#72ff3b}@media(max-width:900px){.footer-wrap{grid-template-columns:1fr;gap:42px}.foot-menu{grid-template-columns:1fr 1fr}}@media(max-width:520px){.footer{padding-top:38px}.footer-wrap{padding:0 20px 38px;gap:36px}.brand{align-items:flex-start}.brand img{width:58px;height:58px}.brand h2{font-size:24px}.brand p{font-size:10px;letter-spacing:.08em}.foot-blurb{font-size:16px;line-height:1.75}.foot-menu{grid-template-columns:1fr;gap:26px}.footer-socials a{width:44px;height:44px;font-size:18px}.foot-col a{font-size:16px}.footer-bottom{font-size:10px;line-height:1.7;padding:20px 14px}}`}</style>
     </>
   );
 }
