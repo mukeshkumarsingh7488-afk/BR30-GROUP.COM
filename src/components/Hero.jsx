@@ -28,7 +28,7 @@ export default function Hero() {
             <div className="hero-strip">
               <div>
                 <strong>4+</strong>
-                <span>BR30 Brands</span>
+                <span>Official BR30 Websites</span>
               </div>
               <div>
                 <strong>100%</strong>
