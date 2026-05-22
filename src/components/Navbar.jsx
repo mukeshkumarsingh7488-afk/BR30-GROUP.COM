@@ -26,12 +26,12 @@ export default function Navbar() {
                 <a href="#join">Membership</a>
               </li>
               <li>
-                <a href="/contact">Contact</a>
+                <Link to="/contact">Contact</Link>
               </li>
             </ul>
           </nav>
 
-          <a href="#JoinBanner" className="btn-pill">
+          <a href="#join-banner" className="btn-pill">
             Explore BR30
           </a>
         </div>

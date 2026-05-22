@@ -18,7 +18,7 @@ export default function Hero() {
             </h1>
             <p className="hero-sub">BR30 GROUP is a modern digital network providing trading education, web solutions, custom branding, logo design, and powerful digital services for the next generation of online businesses.</p>
             <div className="hero-ctas">
-              <a href="#JoinBanner" className="btn-primary">
+              <a href="#join-banner" className="btn-primary">
                 Explore Services <span className="arr">→</span>
               </a>
               <a href="#manifesto" className="btn-outline">

@@ -9,10 +9,12 @@ import ContactPage from "./pages/ContactPage.jsx";
 
 import Navbar from "./components/Navbar.jsx";
 import Footer from "./components/Footer.jsx";
+import ScrollToTop from "./components/ScrollToTop.jsx";
 
 export default function App() {
   return (
     <>
+      <ScrollToTop />
       <Navbar />
 
       <Routes>
