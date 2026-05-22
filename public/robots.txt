@@ -1,0 +1,18 @@
+User-agent: *
+
+# ✅ Main Pages
+Allow: /
+Allow: /about
+Allow: /contact
+Allow: /privacy
+Allow: /terms
+Allow: /refund
+
+# ✅ React / Assets
+Allow: /src/
+Allow: /assets/
+Allow: /images/
+Allow: /fonts/
+
+# ✅ Sitemap
+Sitemap: https://br30group.com/sitemap.xml
