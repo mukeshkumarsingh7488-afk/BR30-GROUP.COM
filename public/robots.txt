@@ -15,4 +15,4 @@ Allow: /images/
 Allow: /fonts/
 
 # ✅ Sitemap
-Sitemap: https://br30group.com/sitemap.xml
+Sitemap: https://br-30-group-com.vercel.app/sitemap.xml

@@ -5,7 +5,7 @@
 
   <!-- 🏠 Home -->
   <url>
-    <loc>https://br30group.com/</loc>
+    <loc>https://br-30-group-com.vercel.app/</loc>
     <lastmod>2026-05-22</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
@@ -13,7 +13,7 @@
 
   <!-- ℹ️ About -->
   <url>
-    <loc>https://br30group.com/about</loc>
+    <loc>https://br-30-group-com.vercel.app/about</loc>
     <lastmod>2026-05-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
@@ -21,7 +21,7 @@
 
   <!-- 📞 Contact -->
   <url>
-    <loc>https://br30group.com/contact</loc>
+    <loc>https://br-30-group-com.vercel.app/contact</loc>
     <lastmod>2026-05-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
@@ -29,7 +29,7 @@
 
   <!-- 🔒 Privacy Policy -->
   <url>
-    <loc>https://br30group.com/privacy</loc>
+    <loc>https://br-30-group-com.vercel.app/privacy</loc>
     <lastmod>2026-05-22</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.6</priority>
@@ -37,7 +37,7 @@
 
   <!-- 📜 Terms & Conditions -->
   <url>
-    <loc>https://br30group.com/terms</loc>
+    <loc>https://br-30-group-com.vercel.app/terms</loc>
     <lastmod>2026-05-22</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.6</priority>
@@ -45,7 +45,7 @@
 
   <!-- 💸 Refund Policy -->
   <url>
-    <loc>https://br30group.com/refund</loc>
+    <loc>https://br-30-group-com.vercel.app/refund</loc>
     <lastmod>2026-05-22</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.6</priority>
