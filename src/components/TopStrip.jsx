@@ -1070,7 +1070,7 @@ button { cursor: pointer; border: none; background: none; }
 `}</style>
       <div className="top-strip">
         <div className="ticker">
-          <span>BR30GROUP • DIGITAL ECOSYSTEM • OFFICIAL NETWORK</span>
+          <span>BR30 GROUP • DIGITAL ECOSYSTEM • OFFICIAL NETWORK</span>
           <span>BUILDING BRANDS • WEBSITES • DIGITAL PRODUCTS</span>
           <span>TRADING • WEB SERVICES • CUSTOM BRANDING</span>
           <span>POWERED BY VISION • DRIVEN BY EXECUTION</span>
@@ -1079,7 +1079,7 @@ button { cursor: pointer; border: none; background: none; }
           <span>STARTUPS • TRADERS • CREATORS • ONLINE BUSINESSES</span>
           <span>ONE BRAND • MULTIPLE SERVICES • STRONG EXECUTION</span>
           <span>PREMIUM WEB SOLUTIONS • MODERN DIGITAL EXPERIENCES</span>
-          <span>BR30GROUP • OFFICIAL DIGITAL BRAND NETWORK</span>
+          <span>BR30 GROUP • OFFICIAL DIGITAL BRAND NETWORK</span>
           <span>BUILDING COMMUNITIES • SCALING DIGITAL FUTURES</span>
           <span>INNOVATION • GROWTH • EXECUTION • CONSISTENCY</span>
         </div>

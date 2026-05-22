@@ -30,7 +30,7 @@ export default function Marquee() {
           <span>INDIA • ONLINE FIRST • GLOBAL VISION</span>
           <span className="dot">✦</span>
 
-          <span>BR30GROUP • OFFICIAL NETWORK</span>
+          <span>BR30 GROUP • OFFICIAL NETWORK</span>
           <span className="dot">✦</span>
 
           <span>TOGETHER WE BUILD THE FUTURE</span>
