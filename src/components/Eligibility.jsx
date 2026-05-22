@@ -72,7 +72,7 @@ export default function Eligibility() {
           </ul>
 
           <div className="elig-cta">
-            <a href="#Connect" className="btn-primary btn-primary-lg">
+            <a href="#connect" className="btn-primary btn-primary-lg">
               Join BR30 Group
               <span className="arr">→</span>
             </a>
