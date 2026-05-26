@@ -53,7 +53,7 @@ export default function Navbar() {
             </ul>
           </nav>
 
-          <div className="explore-wrap" ref={dropdownRef} onMouseEnter={() => setOpen(true)} onMouseLeave={() => setOpen(false)}>
+          <div className="explore-wrap" ref={dropdownRef} onMouseEnter={() => window.innerWidth > 900 && setOpen(true)} onMouseLeave={() => window.innerWidth > 900 && setOpen(false)}>
             <button type="button" className="btn-pill" onClick={() => setOpen((prev) => !prev)}>
               Explore BR30
             </button>
