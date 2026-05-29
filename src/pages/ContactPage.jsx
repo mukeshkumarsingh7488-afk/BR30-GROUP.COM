@@ -47,7 +47,7 @@ export default function ContactPage() {
             <div className="info-card">
               <p>
                 <b>Email:</b>{" "}
-                <a href="mailto:support.br30trader@gmail.com?subject=BR30%20Group%20Support%20Request&body=Hello%20BR30%20Group%20Team,%0A%0AMujhe%20help%20chahiye%20regarding%20..." className="contact-link">
+                <a href="https://mail.google.com/mail/?view=cm&fs=1&to=support.br30trader@gmail.com&su=BR30%20Group%20Support%20Request" target="_blank" rel="noopener noreferrer" className="contact-link">
                   support.br30trader@gmail.com
                 </a>
               </p>
