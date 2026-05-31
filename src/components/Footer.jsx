@@ -23,19 +23,23 @@ export default function Footer() {
                 <i className="fa-brands fa-x-twitter"></i>
               </a>
 
-              <a href="https://www.instagram.com/br30Traderofficial" target="_blank" rel="noreferrer">
-                <i className="fa-brands fa-instagram"></i>
+              <a href="https://www.linkedin.com/in/mukeshraj-br30/" target="_blank" rel="noreferrer">
+                <i className="fa-brands fa-linkedin"></i>
               </a>
 
-              <a href="https://www.youtube.com/@br30traderofficial" target="_blank" rel="noreferrer">
-                <i className="fa-brands fa-youtube"></i>
+              <a href="https://github.com/mukeshkumarsingh7488-afk" target="_blank" rel="noreferrer">
+                <i className="fa-brands fa-github"></i>
               </a>
 
-              <a href="https://t.me/+hBAT4kWo63A4ZWY1" target="_blank" rel="noreferrer">
-                <i className="fa-brands fa-telegram"></i>
+              <a href="https://chat.whatsapp.com/B4t82SWBcgOIZTeQXp1wDI" target="_blank" rel="noreferrer">
+                <i className="fa-brands fa-whatsapp"></i>
               </a>
 
-              <a href="mailto:support.br30trader@gmail.com">
+              <a href="https://www.threads.com/@br30traderofficial" target="_blank" rel="noreferrer">
+                <i className="fa-brands fa-threads"></i>
+              </a>
+
+              <a href="https://mail.google.com/mail/?view=cm&fs=1&to=support.br30trader@gmail.com" target="_blank" rel="noreferrer">
                 <i className="fa-solid fa-envelope"></i>
               </a>
             </div>
@@ -65,16 +69,16 @@ export default function Footer() {
             <div className="foot-col">
               <h4>FOLLOW</h4>
 
-              <a href="https://www.facebook.com/share/1DDJYGYYDf/" target="_blank" rel="noreferrer">
-                Facebook
+              <a href="https://www.youtube.com/@br30traderofficial" target="_blank" rel="noreferrer">
+                YouTube
               </a>
 
               <a href="https://www.instagram.com/br30Traderofficial" target="_blank" rel="noreferrer">
                 Instagram
               </a>
 
-              <a href="https://www.youtube.com/@br30traderofficial" target="_blank" rel="noreferrer">
-                YouTube
+              <a href="https://www.facebook.com/share/1DDJYGYYDf/" target="_blank" rel="noreferrer">
+                Facebook
               </a>
 
               <a href="https://t.me/+hBAT4kWo63A4ZWY1" target="_blank" rel="noreferrer">
