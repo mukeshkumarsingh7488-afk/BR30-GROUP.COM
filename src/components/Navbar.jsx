@@ -69,6 +69,14 @@ export default function Navbar() {
                 </div>
               </a>
 
+              <a href="https://br-30-kart.vercel.app/" target="_blank" rel="noreferrer" onClick={() => setOpen(false)}>
+                <span>🎓</span>
+                <div>
+                  <strong>BR30 Kart</strong>
+                  <small>Multi-seller Digital Course Marketplace</small>
+                </div>
+              </a>
+
               <a href="https://my-frontend-eight-roan.vercel.app/" target="_blank" rel="noreferrer" onClick={() => setOpen(false)}>
                 <span>📈</span>
                 <div>
@@ -77,11 +85,11 @@ export default function Navbar() {
                 </div>
               </a>
 
-              <a href="https://br-30-kart.vercel.app/" target="_blank" rel="noreferrer" onClick={() => setOpen(false)}>
-                <span>🎓</span>
+              <a href="https://br30marketscanner-com-frontade.vercel.app/" target="_blank" rel="noreferrer" onClick={() => setOpen(false)}>
+                <span>📊</span>
                 <div>
-                  <strong>BR30 Kart</strong>
-                  <small>Multi-seller Digital Course Marketplace</small>
+                  <strong>BR30 Market Scanner</strong>
+                  <small>Live Market Intelligence Platform</small>
                 </div>
               </a>
 
