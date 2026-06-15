@@ -4,7 +4,7 @@ export default function Manifesto() {
       <section className="manifesto" id="manifesto" data-screen-label="03 Vision Plan">
         <div className="container">
           <header className="section-head">
-            <span className="eyebrow on-dark">The Five Goals</span>
+            <span className="eyebrow on-dark">The Goals</span>
             <h2 className="display on-dark">The BR30 Vision Plan.</h2>
             <p className="lead on-dark">One brand. Multiple platforms. A complete digital ecosystem built for trading education, online business growth, branding, and future automation.</p>
           </header>
@@ -27,7 +27,7 @@ export default function Manifesto() {
             <li className="demand">
               <span className="d-num">03</span>
               <p className="d-text">
-                <strong>BR30 Founder</strong> is the personal portfolio of Mukesh Raj, showcasing his journey as a web developer, trader, founder, creator, and builder behind the BR30 digital ecosystem.
+                <strong>BR30 Market Scanner</strong> is a real-time market intelligence platform that scans stocks, futures, options, forex, commodities, global markets, and crypto assets to identify high-probability trading opportunities. It provides live BUY and SELL signals, volume breakout alerts, open interest analysis, market momentum tracking, and smart trade insights to help traders make faster and more informed decisions.
               </p>
             </li>
 
@@ -42,6 +42,13 @@ export default function Manifesto() {
               <span className="d-num">05</span>
               <p className="d-text">
                 <strong>BR30 Services</strong> brings web services, custom logo design, readymade logos, digital branding, and online business solutions under one trusted BR30 identity.
+              </p>
+            </li>
+
+            <li className="demand">
+              <span className="d-num">06</span>
+              <p className="d-text">
+                <strong>BR30 Founder</strong> is the personal portfolio of Mukesh Raj, showcasing his journey as a web developer, trader, founder, creator, and builder behind the BR30 digital ecosystem.
               </p>
             </li>
           </ol>
