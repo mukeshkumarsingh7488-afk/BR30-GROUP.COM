@@ -25,12 +25,7 @@ export default function TopStrip() {
   --rule: var(--ink);
 }
 * { box-sizing: border-box; margin: 0; padding: 0; }
-html, body {
-  background: var(--paper);
-  color: var(--ink);
-  font-family: var(--sans);
-  -webkit-font-smoothing: antialiased;
-}
+html,body{background:var(--paper);color:var(--ink);font-family:var(--sans);-webkit-font-smoothing:antialiased;-webkit-touch-callout:none;-webkit-user-select:none;-khtml-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none}img{-webkit-user-drag:none;user-drag:none}
 body {
   overflow-x: hidden;
   position: relative;
