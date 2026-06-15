@@ -27,7 +27,7 @@ export default function Manifesto() {
             <li className="demand">
               <span className="d-num">03</span>
               <p className="d-text">
-                <strong>BR30 Market Scanner</strong> is a real-time market intelligence platform that scans stocks, futures, options, forex, commodities, global markets, and crypto assets to identify high-probability trading opportunities. It provides live BUY and SELL signals, volume breakout alerts, open interest analysis, market momentum tracking, and smart trade insights to help traders make faster and more informed decisions.
+                <strong>BR30 Market Scanner</strong> is a real-time trading platform that provides BUY and SELL signals, volume and open interest analysis, and smart market insights to help traders make informed decisions.
               </p>
             </li>
 
