@@ -11,6 +11,7 @@ import Navbar from "./components/Navbar.jsx";
 import Footer from "./components/Footer.jsx";
 import ScrollToTop from "./components/ScrollToTop.jsx";
 import Indicators from "./pages/Indicators";
+import Services from "./pages/Services";
 
 export default function App() {
   return (
@@ -26,6 +27,7 @@ export default function App() {
         <Route path="/about" element={<About />} />
         <Route path="/contact" element={<ContactPage />} />
         <Route path="/indicators" element={<Indicators />} />
+        <Route path="/services" element={<Services />} />
       </Routes>
 
       <Footer />

@@ -5,7 +5,7 @@ export default function Manifesto() {
     scanner: "https://br30marketscanner-com-frontade.vercel.app/",
     indicators: "/indicators",
     algo: "https://br30algo-com.vercel.app/",
-    services: "https://br-30-group-com.vercel.app/",
+    services: "/services",
     founder: "https://br30-com.vercel.app/",
   };
 
@@ -66,7 +66,7 @@ export default function Manifesto() {
                 <a href={links.algo} target="_blank" rel="noreferrer" className="brand-link">
                   BR30 Algo
                 </a>{" "}
-                is a private automated trading system designed to analyze market conditions, identify buy and sell opportunities, execute trades automatically, manage strategy logic, and support disciplined trading decisions.
+                BR30 Algo is a private automated trading system designed to analyze market conditions, identify trading opportunities, execute trades automatically, and support disciplined decision-making.
               </p>
             </li>
 
@@ -76,7 +76,7 @@ export default function Manifesto() {
                 <a href={links.services} target="_blank" rel="noreferrer" className="brand-link">
                   BR30 Services
                 </a>{" "}
-                brings web services, custom logo design, readymade logos, digital branding, Custom TradingView Indicators, and online business solutions under one trusted BR30 identity.
+                delivers professional web development, digital branding, logo design, custom TradingView indicators, business automation, and complete online solutions under one trusted BR30 identity.
               </p>
             </li>
 
