@@ -73,7 +73,7 @@ export default function Manifesto() {
             <li className="demand">
               <span className="d-num">06</span>
               <p className="d-text">
-                <a href={links.services} target="_blank" rel="noreferrer" className="brand-link">
+                <a href={links.services} className="brand-link">
                   BR30 Services
                 </a>{" "}
                 delivers professional web development, digital branding, logo design, custom TradingView indicators, business automation, and complete online solutions under one trusted BR30 identity.

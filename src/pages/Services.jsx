@@ -83,7 +83,7 @@ export default function Services() {
             <h2>Ready To Build Your Next Project?</h2>
             <p>Whether you need a website, TradingView indicator, branding package, automation system, or complete digital solution, BR30 Services is ready to help.</p>
             <div className="cta-actions">
-              <a href="/#contact" className="primary-btn">
+              <a href="https://mail.google.com/mail/?view=cm&fs=1&to=support.br30trader@gmail.com&su=BR30%20Services%20Inquiry&body=Hello%20BR30%20Team,%0A%0AI%20am%20interested%20in%20your%20services.%20Please%20share%20more%20details.%0A%0AService%20Required:%20%0AName:%20%0APhone:%20%0A%0ARegards," target="_blank" rel="noreferrer" className="primary-btn">
                 Contact Us →
               </a>
               <a href="/" className="secondary-btn">
