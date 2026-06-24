@@ -3,6 +3,7 @@ export default function Manifesto() {
     trader: "https://my-frontend-eight-roan.vercel.app/",
     kart: "https://br-30-kart.vercel.app/",
     scanner: "https://br30marketscanner-com-frontade.vercel.app/",
+    indicators: "/indicators",
     algo: "https://br30algo-com.vercel.app/",
     services: "https://br-30-group-com.vercel.app/",
     founder: "https://br30-com.vercel.app/",
@@ -52,6 +53,16 @@ export default function Manifesto() {
             <li className="demand">
               <span className="d-num">04</span>
               <p className="d-text">
+                <a href={links.indicators} className="brand-link">
+                  BR30 TradingView Indicators
+                </a>{" "}
+                is a complete collection of BR30 custom TradingView indicators designed for trend analysis, scalping, SMC, liquidity, EMA/SMA, FVG, market structure, breakout, and smart trading confirmation.
+              </p>
+            </li>
+
+            <li className="demand">
+              <span className="d-num">05</span>
+              <p className="d-text">
                 <a href={links.algo} target="_blank" rel="noreferrer" className="brand-link">
                   BR30 Algo
                 </a>{" "}
@@ -60,17 +71,17 @@ export default function Manifesto() {
             </li>
 
             <li className="demand">
-              <span className="d-num">05</span>
+              <span className="d-num">06</span>
               <p className="d-text">
                 <a href={links.services} target="_blank" rel="noreferrer" className="brand-link">
                   BR30 Services
                 </a>{" "}
-                brings web services, custom logo design, readymade logos, digital branding, and online business solutions under one trusted BR30 identity.
+                brings web services, custom logo design, readymade logos, digital branding, Custom TradingView Indicators, and online business solutions under one trusted BR30 identity.
               </p>
             </li>
 
             <li className="demand">
-              <span className="d-num">06</span>
+              <span className="d-num">07</span>
               <p className="d-text">
                 <a href={links.founder} target="_blank" rel="noreferrer" className="brand-link">
                   BR30 Founder
