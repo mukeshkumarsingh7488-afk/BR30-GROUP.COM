@@ -108,6 +108,14 @@ export default function Navbar() {
                   <small>Private Algo System</small>
                 </div>
               </a>
+
+              <a href="https://br-30-qr-studio-xi.vercel.app/" target="_blank" rel="noreferrer" onClick={() => setOpen(false)}>
+                <span>📱</span>
+                <div>
+                  <strong>BR30 QR Studio</strong>
+                  <small>Stylish QR Code Generator</small>
+                </div>
+              </a>
             </div>
           </div>
         </div>

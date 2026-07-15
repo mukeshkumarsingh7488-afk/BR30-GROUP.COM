@@ -89,6 +89,16 @@ export default function Manifesto() {
                 is the personal portfolio of Mukesh Raj, showcasing his journey as a web developer, trader, founder, creator, and builder behind the BR30 digital ecosystem.
               </p>
             </li>
+
+            <li className="demand">
+              <span className="d-num">07</span>
+              <p className="d-text">
+                <a href="https://br-30-qr-studio-xi.vercel.app/" target="_blank" rel="noreferrer" className="brand-link">
+                  BR30 QR Studio
+                </a>{" "}
+                is a premium QR Code Generator by BR30 Group that instantly converts any URL into stylish, downloadable QR codes with a fast, modern, and mobile-friendly experience.
+              </p>
+            </li>
           </ol>
         </div>
       </section>
