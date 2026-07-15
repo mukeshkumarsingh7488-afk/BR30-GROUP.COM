@@ -15,7 +15,6 @@ export default function Footer() {
                 <p>TRADING • DIGITAL ECOSYSTEM • INNOVATION</p>
               </div>
             </div>
-
             <p className="foot-blurb">Empowering traders with logic, psychology, and high-performance marketplace solutions. Join India's elite trading community.</p>
 
             <div className="footer-socials">
