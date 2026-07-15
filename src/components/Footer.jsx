@@ -15,6 +15,7 @@ export default function Footer() {
                 <p>TRADING • DIGITAL ECOSYSTEM • INNOVATION</p>
               </div>
             </div>
+
             <p className="foot-blurb">Empowering traders with logic, psychology, and high-performance marketplace solutions. Join India's elite trading community.</p>
 
             <div className="footer-socials">
@@ -24,6 +25,10 @@ export default function Footer() {
 
               <a href="https://www.linkedin.com/in/mukeshraj-br30/" target="_blank" rel="noreferrer">
                 <i className="fa-brands fa-linkedin"></i>
+              </a>
+
+              <a href="https://github.com/mukeshkumarsingh7488-afk" target="_blank" rel="noreferrer">
+                <i className="fa-brands fa-github"></i>
               </a>
 
               <a href="https://chat.whatsapp.com/B4t82SWBcgOIZTeQXp1wDI" target="_blank" rel="noreferrer">
