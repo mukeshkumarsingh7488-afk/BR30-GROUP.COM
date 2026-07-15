@@ -27,10 +27,6 @@ export default function Footer() {
                 <i className="fa-brands fa-linkedin"></i>
               </a>
 
-              <a href="https://github.com/mukeshkumarsingh7488-afk" target="_blank" rel="noreferrer">
-                <i className="fa-brands fa-github"></i>
-              </a>
-
               <a href="https://chat.whatsapp.com/B4t82SWBcgOIZTeQXp1wDI" target="_blank" rel="noreferrer">
                 <i className="fa-brands fa-whatsapp"></i>
               </a>
