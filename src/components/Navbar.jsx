@@ -68,7 +68,6 @@ export default function Navbar() {
                   <small>Main Digital Ecosystem</small>
                 </div>
               </a>
-
               <a href="https://br-30-kart.vercel.app/" target="_blank" rel="noreferrer" onClick={() => setOpen(false)}>
                 <span>🎓</span>
                 <div>
@@ -76,7 +75,6 @@ export default function Navbar() {
                   <small>Multi-seller Digital Course Marketplace</small>
                 </div>
               </a>
-
               <a href="https://my-frontend-eight-roan.vercel.app/" target="_blank" rel="noreferrer" onClick={() => setOpen(false)}>
                 <span>📈</span>
                 <div>
@@ -84,7 +82,6 @@ export default function Navbar() {
                   <small>Trading Education Platform</small>
                 </div>
               </a>
-
               <a href="https://br30marketscanner-com-frontade.vercel.app/" target="_blank" rel="noreferrer" onClick={() => setOpen(false)}>
                 <span>📊</span>
                 <div>
@@ -93,6 +90,13 @@ export default function Navbar() {
                 </div>
               </a>
 
+              <a href="https://br30-algo-terminal-f.vercel.app" target="_blank" rel="noreferrer" onClick={() => setOpen(false)}>
+                <span>💹</span>
+                <div>
+                  <strong>BR30 Algo Terminal</strong>
+                  <small>Live Market Intelligence Platform</small>
+                </div>
+              </a>
               <a href="https://br30foodos.vercel.app/" target="_blank" rel="noreferrer" onClick={() => setOpen(false)}>
                 <span>🍽️</span>
                 <div>
@@ -100,7 +104,6 @@ export default function Navbar() {
                   <small>Complete Food Business Operating System</small>
                 </div>
               </a>
-
               <a href="https://br-30-qr-studio-xi.vercel.app/" target="_blank" rel="noreferrer" onClick={() => setOpen(false)}>
                 <span>📱</span>
                 <div>
@@ -108,7 +111,6 @@ export default function Navbar() {
                   <small>Stylish QR Code Generator</small>
                 </div>
               </a>
-
               <a href="https://br30-com.vercel.app/" target="_blank" rel="noreferrer" onClick={() => setOpen(false)}>
                 <span>👤</span>
                 <div>
@@ -116,7 +118,6 @@ export default function Navbar() {
                   <small>Mukesh Raj Portfolio</small>
                 </div>
               </a>
-
               <a href="https://br30algo-com.vercel.app/l" target="_blank" rel="noreferrer" onClick={() => setOpen(false)}>
                 <span>🤖</span>
                 <div>
