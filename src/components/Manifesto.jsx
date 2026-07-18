@@ -53,7 +53,7 @@ export default function Manifesto() {
             <li className="demand">
               <span className="d-num">03</span>
               <p className="d-text">
-                <a href="https://br-30-food-os-f.vercel.app/" target="_blank" rel="noreferrer" className="brand-link">
+                <a href="https://br30-algo-terminal-f.vercel.app" target="_blank" rel="noreferrer" className="brand-link">
                   BR30 Algo Terminal
                 </a>{" "}
                 is a live market intelligence platform that delivers BUY and SELL signals, volume and open interest analysis, and smart market insights to help traders make informed decisions.
@@ -63,7 +63,7 @@ export default function Manifesto() {
             <li className="demand">
               <span className="d-num">04</span>
               <p className="d-text">
-                <a href="https://br30foodos.vercel.app/" target="_blank" rel="noreferrer" className="brand-link">
+                <a href="https://br-30-food-os-f.vercel.app/" target="_blank" rel="noreferrer" className="brand-link">
                   BR30 FoodOS
                 </a>{" "}
                 is a complete food business operating system designed for restaurants, cafes, bakeries, hotels, sweet shops, ice cream parlours, and cloud kitchens. It helps businesses manage digital menus, QR ordering, operations, and smart business workflows from one powerful platform.
