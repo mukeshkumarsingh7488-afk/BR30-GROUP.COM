@@ -93,6 +93,22 @@ export default function Navbar() {
                 </div>
               </a>
 
+              <a href="https://br30foodos.vercel.app/" target="_blank" rel="noreferrer" onClick={() => setOpen(false)}>
+                <span>🍽️</span>
+                <div>
+                  <strong>BR30 FoodOS</strong>
+                  <small>Complete Food Business Operating System</small>
+                </div>
+              </a>
+
+              <a href="https://br-30-qr-studio-xi.vercel.app/" target="_blank" rel="noreferrer" onClick={() => setOpen(false)}>
+                <span>📱</span>
+                <div>
+                  <strong>BR30 QR Studio</strong>
+                  <small>Stylish QR Code Generator</small>
+                </div>
+              </a>
+
               <a href="https://br30-com.vercel.app/" target="_blank" rel="noreferrer" onClick={() => setOpen(false)}>
                 <span>👤</span>
                 <div>
@@ -106,14 +122,6 @@ export default function Navbar() {
                 <div>
                   <strong>BR30 Algo</strong>
                   <small>Private Algo System</small>
-                </div>
-              </a>
-
-              <a href="https://br-30-qr-studio-xi.vercel.app/" target="_blank" rel="noreferrer" onClick={() => setOpen(false)}>
-                <span>📱</span>
-                <div>
-                  <strong>BR30 QR Studio</strong>
-                  <small>Stylish QR Code Generator</small>
                 </div>
               </a>
             </div>

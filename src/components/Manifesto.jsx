@@ -53,6 +53,26 @@ export default function Manifesto() {
             <li className="demand">
               <span className="d-num">04</span>
               <p className="d-text">
+                <a href="https://br30foodos.vercel.app/" target="_blank" rel="noreferrer" className="brand-link">
+                  BR30 FoodOS
+                </a>{" "}
+                is a complete food business operating system designed for restaurants, cafes, bakeries, hotels, sweet shops, ice cream parlours, and cloud kitchens. It helps businesses manage digital menus, QR ordering, operations, and smart business workflows from one powerful platform.
+              </p>
+            </li>
+
+            <li className="demand">
+              <span className="d-num">05</span>
+              <p className="d-text">
+                <a href="https://br-30-qr-studio-xi.vercel.app/" target="_blank" rel="noreferrer" className="brand-link">
+                  BR30 QR Studio
+                </a>{" "}
+                is a premium QR Code Generator by BR30 Group that instantly converts any URL into stylish, downloadable QR codes with a fast, modern, and mobile-friendly experience.
+              </p>
+            </li>
+
+            <li className="demand">
+              <span className="d-num">06</span>
+              <p className="d-text">
                 <a href={links.indicators} className="brand-link">
                   BR30 TradingView Indicators
                 </a>{" "}
@@ -61,7 +81,7 @@ export default function Manifesto() {
             </li>
 
             <li className="demand">
-              <span className="d-num">05</span>
+              <span className="d-num">07</span>
               <p className="d-text">
                 <a href={links.algo} target="_blank" rel="noreferrer" className="brand-link">
                   BR30 Algo
@@ -71,7 +91,7 @@ export default function Manifesto() {
             </li>
 
             <li className="demand">
-              <span className="d-num">06</span>
+              <span className="d-num">08</span>
               <p className="d-text">
                 <a href={links.services} className="brand-link">
                   BR30 Services
@@ -81,22 +101,12 @@ export default function Manifesto() {
             </li>
 
             <li className="demand">
-              <span className="d-num">07</span>
+              <span className="d-num">09</span>
               <p className="d-text">
                 <a href={links.founder} target="_blank" rel="noreferrer" className="brand-link">
                   BR30 Founder
                 </a>{" "}
                 is the personal portfolio of Mukesh Raj, showcasing his journey as a web developer, trader, founder, creator, and builder behind the BR30 digital ecosystem.
-              </p>
-            </li>
-
-            <li className="demand">
-              <span className="d-num">07</span>
-              <p className="d-text">
-                <a href="https://br-30-qr-studio-xi.vercel.app/" target="_blank" rel="noreferrer" className="brand-link">
-                  BR30 QR Studio
-                </a>{" "}
-                is a premium QR Code Generator by BR30 Group that instantly converts any URL into stylish, downloadable QR codes with a fast, modern, and mobile-friendly experience.
               </p>
             </li>
           </ol>
