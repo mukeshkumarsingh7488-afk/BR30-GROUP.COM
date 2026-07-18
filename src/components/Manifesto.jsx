@@ -53,7 +53,7 @@ export default function Manifesto() {
             <li className="demand">
               <span className="d-num">03</span>
               <p className="d-text">
-                <a href="https://br30-algo-terminal-f.vercel.app" target="_blank" rel="noreferrer" className="brand-link">
+                <a href="https://br-30-food-os-f.vercel.app/" target="_blank" rel="noreferrer" className="brand-link">
                   BR30 Algo Terminal
                 </a>{" "}
                 is a live market intelligence platform that delivers BUY and SELL signals, volume and open interest analysis, and smart market insights to help traders make informed decisions.

@@ -97,7 +97,7 @@ export default function Navbar() {
                   <small>Live Market Intelligence Platform</small>
                 </div>
               </a>
-              <a href="https://br30foodos.vercel.app/" target="_blank" rel="noreferrer" onClick={() => setOpen(false)}>
+              <a href="https://br-30-food-os-f.vercel.app/" target="_blank" rel="noreferrer" onClick={() => setOpen(false)}>
                 <span>🍽️</span>
                 <div>
                   <strong>BR30 FoodOS</strong>
