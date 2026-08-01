@@ -94,7 +94,7 @@ export default function Navbar() {
                 <span>💹</span>
                 <div>
                   <strong>BR30 Algo Terminal</strong>
-                  <small>Live Market Intelligence Platform</small>
+                  <small>Professional Algo Trading Terminal</small>
                 </div>
               </a>
               <a href="https://br-30-food-os-f.vercel.app/" target="_blank" rel="noreferrer" onClick={() => setOpen(false)}>
