@@ -88,7 +88,7 @@ export default function Footer() {
           <span>© 2026 BR30 Group · All rights reserved.</span>
 
           <span className="foot-links">
-            <Link to="/privacy">Privacy Policy</Link> · <Link to="/terms">Terms & Conditions</Link> · <Link to="/refund">Refund Policy</Link> · <Link to="/about">About Us</Link> · <Link to="/contact">Contact Us</Link>
+            <Link to="/terms">Terms & Conditions</Link> · <Link to="/privacy">Privacy Policy</Link> · <Link to="/refund">Refund Policy</Link> · <Link to="/about">About Us</Link> · <Link to="/contact">Contact Us</Link>
           </span>
         </div>
       </footer>
