@@ -51,7 +51,7 @@ export default function Manifesto() {
             </li>
 
             <li className="demand">
-              <span className="d-num">03</span>
+              <span className="d-num">04</span>
               <p className="d-text">
                 <a href="https://br30-algo-terminal-f.vercel.app" target="_blank" rel="noreferrer" className="brand-link">
                   BR30 Algo Terminal
@@ -61,7 +61,7 @@ export default function Manifesto() {
             </li>
 
             <li className="demand">
-              <span className="d-num">04</span>
+              <span className="d-num">05</span>
               <p className="d-text">
                 <a href="https://br-30-food-os-f.vercel.app/" target="_blank" rel="noreferrer" className="brand-link">
                   BR30 FoodOS
@@ -71,7 +71,7 @@ export default function Manifesto() {
             </li>
 
             <li className="demand">
-              <span className="d-num">05</span>
+              <span className="d-num">06</span>
               <p className="d-text">
                 <a href="https://br-30-qr-studio-xi.vercel.app/" target="_blank" rel="noreferrer" className="brand-link">
                   BR30 QR Studio
@@ -81,7 +81,7 @@ export default function Manifesto() {
             </li>
 
             <li className="demand">
-              <span className="d-num">06</span>
+              <span className="d-num">07</span>
               <p className="d-text">
                 <a href={links.indicators} className="brand-link">
                   BR30 TradingView Indicators
@@ -91,7 +91,7 @@ export default function Manifesto() {
             </li>
 
             <li className="demand">
-              <span className="d-num">07</span>
+              <span className="d-num">08</span>
               <p className="d-text">
                 <a href={links.algo} target="_blank" rel="noreferrer" className="brand-link">
                   BR30 Algo
@@ -101,7 +101,7 @@ export default function Manifesto() {
             </li>
 
             <li className="demand">
-              <span className="d-num">08</span>
+              <span className="d-num">09</span>
               <p className="d-text">
                 <a href={links.services} className="brand-link">
                   BR30 Services
@@ -111,7 +111,7 @@ export default function Manifesto() {
             </li>
 
             <li className="demand">
-              <span className="d-num">09</span>
+              <span className="d-num">10</span>
               <p className="d-text">
                 <a href={links.founder} target="_blank" rel="noreferrer" className="brand-link">
                   BR30 Founder
