@@ -27,7 +27,7 @@ export default function Navbar() {
         <div className="nav-inner">
           <Link to="/" className="brand">
             <span className="brand-logo">
-              <img src="https://res.cloudinary.com/dw4imlekm/image/upload/v1781813427/profile_pics/6a3448ddd7e9095466ce453a.png" alt="BR30 Group Logo" />
+              <img src="/image/BR30™ LOGO1.png" alt="BR30 Group Logo" />
             </span>
 
             <span className="brand-text">

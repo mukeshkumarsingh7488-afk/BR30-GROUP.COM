@@ -7,7 +7,7 @@ export default function Footer() {
         <div className="footer-wrap">
           <div className="foot-brand">
             <div className="brand">
-              <img src="https://res.cloudinary.com/dw4imlekm/image/upload/v1781813427/profile_pics/6a3448ddd7e9095466ce453a.png" alt="BR30 Group Logo" />
+              <img src="/image/BR30™ LOGO1.png" alt="BR30 Group Logo" />
 
               <div>
                 <h2>BR30 GROUP</h2>

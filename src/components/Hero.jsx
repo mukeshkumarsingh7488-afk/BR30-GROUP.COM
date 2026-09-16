@@ -46,7 +46,7 @@ export default function Hero() {
           </div>
           <div className="hero-poster">
             <div className="poster-frame hero-poster-frame">
-              <img src="https://res.cloudinary.com/dw4imlekm/image/upload/v1779374883/BR30Group_Hero_Poster_h5rble.png" alt="BR30GROUP Poster" className="poster-image hero-poster-image" />
+              <img src="/image/BR30Group%20Hero%20Poster.png" alt="BR30GROUP Poster" className="poster-image hero-poster-image" />
             </div>
           </div>
         </div>
