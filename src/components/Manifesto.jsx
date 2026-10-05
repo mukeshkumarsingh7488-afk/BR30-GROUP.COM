@@ -119,6 +119,13 @@ export default function Manifesto() {
                 is the personal portfolio of Mukesh Raj, showcasing his journey as a web developer, trader, founder, creator, and builder behind the BR30 digital ecosystem.
               </p>
             </li>
+
+            <li className="demand">
+              <span className="d-num">11</span>
+              <p className="d-text">
+                <span className="brand-link">BR30 CRM</span> is an upcoming customer relationship management platform designed to help businesses manage leads, contacts, companies, deals, tasks, activities, automation, communication, and business workflows from one unified workspace. <strong>Coming Soon</strong>
+              </p>
+            </li>
           </ol>
         </div>
       </section>
