@@ -27,7 +27,7 @@ export default function Hero() {
             </div>
             <div className="hero-strip">
               <div>
-                <strong>8+</strong>
+                <strong>10+</strong>
                 <span>Official BR30 Websites</span>
               </div>
               <div>
@@ -46,7 +46,7 @@ export default function Hero() {
           </div>
           <div className="hero-poster">
             <div className="poster-frame hero-poster-frame">
-              <img src="/image/BR30Group%20Hero%20Poster.png" alt="BR30GROUP Poster" className="poster-image hero-poster-image" />
+              <img src="/image/BR30-new-hero-burner.png" alt="BR30GROUP Poster" className="poster-image hero-poster-image" />
             </div>
           </div>
         </div>

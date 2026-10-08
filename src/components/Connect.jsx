@@ -1,128 +1,5 @@
-import { useState } from "react";
-
-const GOOGLE_FORM_CONFIG = {
-  actionUrl: "https://docs.google.com/forms/d/e/1FAIpQLSeoQu8aB96QM9D0bfxyoZSnfckwPmQVnFo-Gs5ShNajwxqkeQ/formResponse",
-
-  fields: {
-    name: "entry.632958019",
-    phone: "entry.2115545286",
-    email: "entry.1637967057",
-    interestedIn: "entry.32964204",
-    message: "entry.94681729",
-  },
-};
-
-const interestOptions = ["Trading Mentorship", "Web Services", "Custom Logo Design", "BR30 Kart Course", "BR30 Trading Course", "Learn Trading", "Other"];
-
 export default function Contact() {
-  const [formData, setFormData] = useState({
-    name: "",
-    phone: "",
-    email: "",
-    interestedIn: "",
-    message: "",
-  });
-
-  const [submitting, setSubmitting] = useState(false);
-  const [success, setSuccess] = useState(false);
-
-  const handleChange = (e) => {
-    const { name, value } = e.target;
-
-    setFormData((prev) => ({
-      ...prev,
-      [name]: value,
-    }));
-
-    setSuccess(false);
-  };
-
-  const handleSubmit = async (e) => {
-    e.preventDefault();
-
-    const name = formData.name.trim();
-    const phone = formData.phone.trim();
-    const email = formData.email.trim();
-    const interestedIn = formData.interestedIn.trim();
-    const message = formData.message.trim();
-
-    if (!name) {
-      alert("Please enter your full name.");
-      return;
-    }
-
-    if (!phone) {
-      alert("Please enter your mobile number.");
-      return;
-    }
-
-    if (!/^\d{10}$/.test(phone)) {
-      alert("Please enter a valid 10-digit mobile number.");
-      return;
-    }
-
-    if (!email) {
-      alert("Please enter your email address.");
-      return;
-    }
-
-    if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) {
-      alert("Please enter a valid email address.");
-      return;
-    }
-
-    if (!interestedIn) {
-      alert("Please select what you are interested in.");
-      return;
-    }
-
-    if (!message) {
-      alert("Please enter your message.");
-      return;
-    }
-
-    setSubmitting(true);
-    setSuccess(false);
-
-    try {
-      const formBody = new URLSearchParams();
-
-      formBody.append(GOOGLE_FORM_CONFIG.fields.name, name);
-
-      formBody.append(GOOGLE_FORM_CONFIG.fields.phone, phone);
-
-      formBody.append(GOOGLE_FORM_CONFIG.fields.email, email);
-
-      formBody.append(GOOGLE_FORM_CONFIG.fields.interestedIn, interestedIn);
-
-      formBody.append(GOOGLE_FORM_CONFIG.fields.message, message);
-
-      await fetch(GOOGLE_FORM_CONFIG.actionUrl, {
-        method: "POST",
-        mode: "no-cors",
-        headers: {
-          "Content-Type": "application/x-www-form-urlencoded",
-        },
-        body: formBody.toString(),
-      });
-
-      setSuccess(true);
-
-      setFormData({
-        name: "",
-        phone: "",
-        email: "",
-        interestedIn: "",
-        message: "",
-      });
-    } catch (error) {
-      console.error("BR30 Group contact form error:", error);
-
-      alert("Something went wrong. Please try again or contact us directly.");
-    } finally {
-      setSubmitting(false);
-    }
-  };
+  const serviceFormUrl = "https://br30crm-com-f.vercel.app/public/forms/6ac4a4ce8ab8658ebe3748f7/br30-group-service-request?utm_source=br30-group-web&utm_medium=website&lead_source=br30-group-web&form_id=6ac702676ca9142e6f794ca2&source_id=6ac702c56ca9142e6f794cab";
 
   return (
     <>
@@ -130,355 +7,94 @@ export default function Contact() {
         <div className="container">
           <div className="contact-grid">
             <div className="contact-text">
-              <span className="eyebrow">Get in touch</span>
+              <span className="eyebrow">Start Something With BR30</span>
 
               <h2 className="display">
-                Connect
+                Let's
                 <br />
-                with BR30.
+                <span className="t-saffron">Build.</span>
               </h2>
 
-              <p className="lead">Want to connect with BR30 Group for trading mentorship, web services, logo design, digital products, BR30 Kart, or BR30 Algo? Fill the form and our team will review your request.</p>
+              <p className="lead">Have a project, business idea, digital requirement, branding need, web development requirement, automation idea, or want to explore one of the BR30 platforms? Send us your requirement through our service request system.</p>
 
               <ul className="contact-meta">
                 <li>
-                  <span className="cm-label">Email</span>
-                  <span className="cm-value">support.br30trader@gmail.com</span>
+                  <span className="cm-label">Web Development</span>
+                  <span className="cm-value">Websites, web applications & digital platforms</span>
                 </li>
 
                 <li>
-                  <span className="cm-label">WhatsApp</span>
-                  <span className="cm-value">+91 6200986380</span>
+                  <span className="cm-label">Branding & Design</span>
+                  <span className="cm-value">Logo design, identity & digital branding</span>
                 </li>
 
                 <li>
-                  <span className="cm-label">Headquarters</span>
-                  <span className="cm-value">Whitefield, Bangalore, India</span>
+                  <span className="cm-label">Trading Technology</span>
+                  <span className="cm-value">TradingView indicators, tools & automation</span>
                 </li>
 
                 <li>
-                  <span className="cm-label">Founder</span>
-
-                  <span className="cm-value">
-                    Mukesh Raj
-                    <span className="cm-foot">Founder · BR30 Group</span>
-                  </span>
+                  <span className="cm-label">Digital Solutions</span>
+                  <span className="cm-value">CRM, automation & custom digital products</span>
                 </li>
               </ul>
             </div>
 
-            <div className="br30-form-wrap">
+            <div className="br30-form-wrap br30-service-card">
               <div className="br30-form-header">
-                <span>BR30 GROUP</span>
+                <span>BR30 GROUP · SERVICE REQUEST</span>
 
-                <h3>Connect With Us</h3>
+                <h3>
+                  Tell Us What
+                  <br />
+                  You Want To Build.
+                </h3>
 
-                <p>Fill in your details and tell us how we can help you.</p>
+                <p>Share your requirement with us through the BR30 service request system. Our team will review the details and take the conversation forward.</p>
               </div>
 
-              <form className="br30-contact-form" onSubmit={handleSubmit}>
-                {/* FULL NAME */}
-
-                <div className="br30-field">
-                  <label htmlFor="br30-name">Full Name</label>
-
-                  <input id="br30-name" type="text" name="name" value={formData.name} onChange={handleChange} placeholder="Enter your full name" autoComplete="name" />
+              <div className="service-card-points">
+                <div>
+                  <span>01</span>
+                  <strong>Choose a Service</strong>
+                  <small>Select the area where you need help.</small>
                 </div>
 
-                {/* MOBILE */}
-
-                <div className="br30-field">
-                  <label htmlFor="br30-phone">Mobile Number</label>
-
-                  <input id="br30-phone" type="tel" name="phone" value={formData.phone} onChange={handleChange} placeholder="Enter your 10-digit mobile number" inputMode="numeric" maxLength="10" autoComplete="tel" />
+                <div>
+                  <span>02</span>
+                  <strong>Describe Your Requirement</strong>
+                  <small>Tell us about your project, idea or goal.</small>
                 </div>
 
-                {/* EMAIL */}
-
-                <div className="br30-field">
-                  <label htmlFor="br30-email">Email Address</label>
-
-                  <input id="br30-email" type="email" name="email" value={formData.email} onChange={handleChange} placeholder="Enter your email address" autoComplete="email" />
+                <div>
+                  <span>03</span>
+                  <strong>Our Team Reviews It</strong>
+                  <small>We review your request and follow up.</small>
                 </div>
+              </div>
 
-                {/* INTERESTED IN */}
+              <div className="service-card-actions">
+                <a href={serviceFormUrl} target="_blank" rel="noreferrer" className="br30-submit-btn">
+                  Start a Service Request
+                  <span>↗</span>
+                </a>
 
-                <div className="br30-field">
-                  <label htmlFor="br30-interest">Interested In</label>
+                <a href="#manifesto" className="service-secondary-link">
+                  Explore BR30 Ecosystem
+                  <span>→</span>
+                </a>
+              </div>
 
-                  <select id="br30-interest" name="interestedIn" value={formData.interestedIn} onChange={handleChange}>
-                    <option value="" disabled>
-                      Select an option
-                    </option>
-
-                    {interestOptions.map((option) => (
-                      <option key={option} value={option}>
-                        {option}
-                      </option>
-                    ))}
-                  </select>
-                </div>
-
-                {/* MESSAGE */}
-
-                <div className="br30-field">
-                  <label htmlFor="br30-message">Your Message</label>
-
-                  <textarea id="br30-message" name="message" value={formData.message} onChange={handleChange} placeholder="Write your message here..." rows="6" />
-                </div>
-
-                {/* SUCCESS */}
-
-                {success && <div className="br30-form-success">Thank you! Your request has been submitted successfully. Our team will get back to you.</div>}
-
-                {/* SUBMIT */}
-
-                <button type="submit" className="br30-submit-btn" disabled={submitting}>
-                  {submitting ? "Submitting..." : "Submit Request"}
-                </button>
-              </form>
+              <div className="service-card-note">
+                <span className="service-note-dot"></span>
+                <p>Secure public intake · Managed through BR30 CRM</p>
+              </div>
             </div>
           </div>
         </div>
       </section>
 
-      <style>{`
-
-        /* =====================================
-           BR30 CONTACT FORM
-           ===================================== */
-
-        .br30-form-wrap {
-          width: 100%;
-          padding: 30px;
-
-          border: 2px solid #1a120c;
-          border-radius: 8px;
-
-          background: #fff;
-
-          box-shadow: 8px 8px 0 #1a120c;
-        }
-
-        .br30-form-header {
-          margin-bottom: 28px;
-        }
-
-        .br30-form-header > span {
-          display: inline-block;
-
-          margin-bottom: 7px;
-
-          color: #7a5a20;
-
-          font-size: 0.65rem;
-          font-weight: 800;
-
-          letter-spacing: 0.12em;
-        }
-
-        .br30-form-header h3 {
-          margin: 0;
-
-          color: #1a120c;
-
-          font-size: 1.65rem;
-          font-weight: 850;
-
-          letter-spacing: -0.025em;
-        }
-
-        .br30-form-header p {
-          margin: 8px 0 0;
-
-          color: #756f69;
-
-          font-size: 0.78rem;
-          line-height: 1.6;
-        }
-
-        /* =====================================
-           FORM
-           ===================================== */
-
-        .br30-contact-form {
-          display: flex;
-          flex-direction: column;
-          gap: 19px;
-        }
-
-        .br30-field {
-          display: flex;
-          flex-direction: column;
-          gap: 7px;
-        }
-
-        .br30-field label {
-          color: #1a120c;
-
-          font-size: 0.74rem;
-          font-weight: 800;
-        }
-
-        .br30-field input,
-        .br30-field select,
-        .br30-field textarea {
-          width: 100%;
-
-          border: 1px solid #d9d2ca;
-          border-radius: 6px;
-
-          background: #fff;
-
-          color: #1a120c;
-
-          font-family: inherit;
-          font-size: 0.84rem;
-
-          outline: none;
-
-          transition:
-            border-color 0.2s ease,
-            box-shadow 0.2s ease;
-        }
-
-        .br30-field input,
-        .br30-field select {
-          min-height: 48px;
-
-          padding: 0 14px;
-        }
-
-        .br30-field textarea {
-          min-height: 135px;
-
-          padding: 13px 14px;
-
-          resize: vertical;
-        }
-
-        .br30-field input::placeholder,
-        .br30-field textarea::placeholder {
-          color: #aaa39b;
-        }
-
-        .br30-field input:focus,
-        .br30-field select:focus,
-        .br30-field textarea:focus {
-          border-color: #1a120c;
-
-          box-shadow: 0 0 0 3px rgba(26, 18, 12, 0.07);
-        }
-
-        .br30-field select {
-          cursor: pointer;
-        }
-
-        /* =====================================
-           SUCCESS
-           ===================================== */
-
-        .br30-form-success {
-          padding: 13px 14px;
-
-          border: 1px solid #b7d4b0;
-          border-radius: 6px;
-
-          background: #f1f8ef;
-
-          color: #315b2a;
-
-          font-size: 0.76rem;
-          line-height: 1.5;
-        }
-
-        /* =====================================
-           SUBMIT
-           ===================================== */
-
-        .br30-submit-btn {
-          width: 100%;
-          min-height: 50px;
-
-          margin-top: 2px;
-
-          border: 0;
-          border-radius: 6px;
-
-          background: #1a120c;
-          color: #fff;
-
-          font-family: inherit;
-          font-size: 0.82rem;
-          font-weight: 800;
-
-          cursor: pointer;
-
-          transition:
-            transform 0.2s ease,
-            background 0.2s ease;
-        }
-
-        .br30-submit-btn:hover:not(:disabled) {
-          transform: translateY(-2px);
-
-          background: #332218;
-        }
-
-        .br30-submit-btn:disabled {
-          opacity: 0.6;
-          cursor: not-allowed;
-        }
-
-        .contact .lead {
-          max-width: 620px;
-        }
-
-        .contact-meta .cm-value {
-          word-break: break-word;
-        }
-
-        /* =====================================
-           TABLET
-           ===================================== */
-
-        @media (max-width: 900px) {
-          .br30-form-wrap {
-            padding: 25px;
-
-            box-shadow: 6px 6px 0 #1a120c;
-          }
-        }
-
-        /* =====================================
-           MOBILE
-           ===================================== */
-
-        @media (max-width: 575px) {
-          .br30-form-wrap {
-            padding: 21px 17px;
-
-            box-shadow: 5px 5px 0 #1a120c;
-          }
-
-          .br30-form-header {
-            margin-bottom: 23px;
-          }
-
-          .br30-form-header h3 {
-            font-size: 1.4rem;
-          }
-
-          .br30-contact-form {
-            gap: 17px;
-          }
-
-          .br30-field textarea {
-            min-height: 125px;
-          }
-        }
-
-      `}</style>
+      <style>{`.br30-form-wrap{width:100%;padding:32px;border:2px solid #1a120c;border-radius:8px;background:#fff;box-shadow:8px 8px 0 #1a120c}.br30-form-header{margin-bottom:28px}.br30-form-header>span{display:inline-block;margin-bottom:9px;color:#7a5a20;font-size:.65rem;font-weight:800;letter-spacing:.12em}.br30-form-header h3{margin:0;color:#1a120c;font-size:2rem;font-weight:850;line-height:.98;letter-spacing:-.035em}.br30-form-header p{max-width:510px;margin:14px 0 0;color:#756f69;font-size:.84rem;line-height:1.65}.service-card-points{display:grid;grid-template-columns:repeat(3,1fr);border-top:1px solid #ddd6ce;border-left:1px solid #ddd6ce;margin-top:30px}.service-card-points>div{min-height:145px;padding:18px 16px;border-right:1px solid #ddd6ce;border-bottom:1px solid #ddd6ce;display:flex;flex-direction:column;align-items:flex-start}.service-card-points span{font-size:.68rem;font-weight:800;letter-spacing:.14em;color:#ff7a00;margin-bottom:17px}.service-card-points strong{font-family:var(--condensed);font-size:1rem;line-height:1.15;color:#1a120c;letter-spacing:.03em;text-transform:uppercase}.service-card-points small{margin-top:8px;color:#756f69;font-size:.7rem;line-height:1.5}.service-card-actions{display:flex;align-items:center;gap:22px;margin-top:28px;flex-wrap:wrap}.br30-submit-btn{display:inline-flex;align-items:center;justify-content:center;gap:12px;min-height:52px;padding:0 24px;border-radius:6px;background:#1a120c;color:#fff;font-family:inherit;font-size:.8rem;font-weight:800;letter-spacing:.02em;text-decoration:none;transition:transform .2s ease,background .2s ease}.br30-submit-btn span{font-size:18px;color:#ff7a00;transition:transform .2s ease}.br30-submit-btn:hover{transform:translateY(-2px);background:#332218}.br30-submit-btn:hover span{transform:translate(3px,-3px)}.service-secondary-link{display:inline-flex;align-items:center;gap:8px;color:#1a120c;font-family:var(--condensed);font-size:.72rem;font-weight:800;letter-spacing:.1em;text-transform:uppercase;text-decoration:none}.service-secondary-link span{color:#ff7a00;font-size:17px;transition:transform .2s ease}.service-secondary-link:hover span{transform:translateX(4px)}.service-card-note{display:flex;align-items:center;gap:9px;margin-top:25px;padding-top:18px;border-top:1px solid #e2ddd6}.service-note-dot{width:7px;height:7px;border-radius:50%;background:#19b957;box-shadow:0 0 8px rgba(25,185,87,.35)}.service-card-note p{margin:0;color:#8a837b;font-size:.67rem;letter-spacing:.05em}.contact .lead{max-width:620px}.contact-meta .cm-value{word-break:break-word}@media(max-width:900px){.br30-form-wrap{padding:25px;box-shadow:6px 6px 0 #1a120c}.service-card-points{grid-template-columns:1fr 1fr}}@media(max-width:575px){.br30-form-wrap{padding:21px 17px;box-shadow:5px 5px 0 #1a120c}.br30-form-header{margin-bottom:22px}.br30-form-header h3{font-size:1.55rem}.service-card-points{grid-template-columns:1fr}.service-card-points>div{min-height:auto;padding:16px}.service-card-points span{margin-bottom:10px}.service-card-actions{align-items:flex-start;flex-direction:column;gap:17px}.br30-submit-btn{width:100%}.service-secondary-link{font-size:.68rem}.service-card-note{align-items:flex-start}.service-card-note p{line-height:1.5}}`}</style>
     </>
   );
 }

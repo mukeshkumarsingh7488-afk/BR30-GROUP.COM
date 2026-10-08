@@ -7,7 +7,7 @@ export default function Footer() {
         <div className="footer-wrap">
           <div className="foot-brand">
             <div className="brand">
-              <img src="/image/BR30™ LOGO1.png" alt="BR30 Group Logo" />
+              <img src="/image/BR30-logo.jpg" alt="BR30 Group Logo" />
 
               <div>
                 <h2>BR30 GROUP</h2>
@@ -19,6 +19,9 @@ export default function Footer() {
             <p className="foot-blurb">Empowering traders with logic, psychology, and high-performance marketplace solutions. Join India's elite trading community.</p>
 
             <div className="footer-socials">
+              <a href="https://br30-com.vercel.app/" target="_blank" rel="noopener noreferrer">
+                <i className="fa-solid fa-globe"></i>
+              </a>
               <a href="https://x.com/MukeshKuma48159" target="_blank" rel="noreferrer">
                 <i className="fa-brands fa-x-twitter"></i>
               </a>
@@ -27,16 +30,8 @@ export default function Footer() {
                 <i className="fa-brands fa-linkedin"></i>
               </a>
 
-              <a href="https://chat.whatsapp.com/B4t82SWBcgOIZTeQXp1wDI" target="_blank" rel="noreferrer">
-                <i className="fa-brands fa-whatsapp"></i>
-              </a>
-
               <a href="https://www.threads.com/@br30traderofficial" target="_blank" rel="noreferrer">
                 <i className="fa-brands fa-threads"></i>
-              </a>
-
-              <a href="https://mail.google.com/mail/?view=cm&fs=1&to=support.br30trader@gmail.com" target="_blank" rel="noreferrer">
-                <i className="fa-solid fa-envelope"></i>
               </a>
             </div>
           </div>

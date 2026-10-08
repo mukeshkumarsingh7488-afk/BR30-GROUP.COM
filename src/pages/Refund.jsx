@@ -71,10 +71,6 @@ export default function Refund() {
 
             <p>To request a refund, contact our support team with proper payment proof and issue details.</p>
 
-            <p>
-              Email: <b>support.br30trader@gmail.com</b>
-            </p>
-
             <h3>5. Refund Processing Time</h3>
 
             <p>Approved refunds are usually processed within 5–10 business days, depending on your payment provider or bank.</p>
@@ -94,10 +90,6 @@ export default function Refund() {
             <hr />
 
             <p>Funded & Built by Mukesh Raj | BR30 Group</p>
-
-            <Link to="/" className="btn">
-              ← Back to Home
-            </Link>
           </div>
         </div>
       </main>

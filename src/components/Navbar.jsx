@@ -27,7 +27,7 @@ export default function Navbar() {
         <div className="nav-inner">
           <Link to="/" className="brand">
             <span className="brand-logo">
-              <img src="/image/BR30™ LOGO1.png" alt="BR30 Group Logo" />
+              <img src="/image/BR30-logo.jpg" alt="BR30 Group Logo" />
             </span>
 
             <span className="brand-text">
@@ -62,28 +62,49 @@ export default function Navbar() {
 
             <div className={`explore-dropdown ${open ? "show" : ""}`}>
               <a href="https://br-30-group-com.vercel.app/#manifesto" target="_blank" rel="noreferrer" onClick={() => setOpen(false)}>
-                <span>🌐</span>
+                <span>
+                  <i className="fa-solid fa-globe"></i>
+                </span>
                 <div>
                   <strong>BR30 Group</strong>
                   <small>Main Digital Ecosystem</small>
                 </div>
               </a>
+
+              <a href="https://br30crm-com-f.vercel.app/" target="_blank" rel="noreferrer" onClick={() => setOpen(false)}>
+                <span>
+                  <i className="fa-solid fa-users"></i>
+                </span>
+                <div>
+                  <strong>BR30 CRM</strong>
+                  <small>Customer Relationship Management</small>
+                </div>
+              </a>
+
               <a href="https://br-30-kart.vercel.app/" target="_blank" rel="noreferrer" onClick={() => setOpen(false)}>
-                <span>🎓</span>
+                <span>
+                  <i className="fa-solid fa-graduation-cap"></i>
+                </span>
                 <div>
                   <strong>BR30 Kart</strong>
                   <small>Multi-seller Digital Course Marketplace</small>
                 </div>
               </a>
+
               <a href="https://my-frontend-eight-roan.vercel.app/" target="_blank" rel="noreferrer" onClick={() => setOpen(false)}>
-                <span>📈</span>
+                <span>
+                  <i className="fa-solid fa-chart-line"></i>
+                </span>
                 <div>
                   <strong>BR30 Trader</strong>
                   <small>Trading Education Platform</small>
                 </div>
               </a>
+
               <a href="https://br30marketscanner-com-frontade.vercel.app/" target="_blank" rel="noreferrer" onClick={() => setOpen(false)}>
-                <span>📊</span>
+                <span>
+                  <i className="fa-solid fa-chart-column"></i>
+                </span>
                 <div>
                   <strong>BR30 Market Scanner</strong>
                   <small>Live Market Intelligence Platform</small>
@@ -91,35 +112,49 @@ export default function Navbar() {
               </a>
 
               <a href="https://br30-algo-terminal-f.vercel.app" target="_blank" rel="noreferrer" onClick={() => setOpen(false)}>
-                <span>💹</span>
+                <span>
+                  <i className="fa-solid fa-terminal"></i>
+                </span>
                 <div>
                   <strong>BR30 Algo Terminal</strong>
                   <small>Professional Algo Trading Terminal</small>
                 </div>
               </a>
+
               <a href="https://br-30-food-os-f.vercel.app/" target="_blank" rel="noreferrer" onClick={() => setOpen(false)}>
-                <span>🍽️</span>
+                <span>
+                  <i className="fa-solid fa-utensils"></i>
+                </span>
                 <div>
                   <strong>BR30 FoodOS</strong>
                   <small>Complete Food Business Operating System</small>
                 </div>
               </a>
+
               <a href="https://br-30-qr-studio-xi.vercel.app/" target="_blank" rel="noreferrer" onClick={() => setOpen(false)}>
-                <span>📱</span>
+                <span>
+                  <i className="fa-solid fa-qrcode"></i>
+                </span>
                 <div>
                   <strong>BR30 QR Studio</strong>
                   <small>Stylish QR Code Generator</small>
                 </div>
               </a>
+
               <a href="https://br30-com.vercel.app/" target="_blank" rel="noreferrer" onClick={() => setOpen(false)}>
-                <span>👤</span>
+                <span>
+                  <i className="fa-solid fa-user"></i>
+                </span>
                 <div>
                   <strong>BR30 Founder</strong>
                   <small>Mukesh Raj Portfolio</small>
                 </div>
               </a>
+
               <a href="https://br30algo-com.vercel.app/l" target="_blank" rel="noreferrer" onClick={() => setOpen(false)}>
-                <span>🤖</span>
+                <span>
+                  <i className="fa-solid fa-robot"></i>
+                </span>
                 <div>
                   <strong>BR30 Algo</strong>
                   <small>Private Algo System</small>

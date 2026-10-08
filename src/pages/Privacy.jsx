@@ -115,10 +115,6 @@ export default function Privacy() {
               <li>You can withdraw communication consent anytime</li>
             </ul>
 
-            <p>
-              To exercise these rights, contact: <b>support.br30trader@gmail.com</b>
-            </p>
-
             <h3>9. Children Policy</h3>
             <p>Our services are intended for users who are 18 years or older. We do not knowingly collect data from children.</p>
 
@@ -128,10 +124,6 @@ export default function Privacy() {
             <hr />
 
             <p>Funded & Built by Mukesh Raj | BR30 Group</p>
-
-            <Link to="/" className="btn">
-              ← Back to Home
-            </Link>
           </div>
         </div>
       </main>

@@ -123,19 +123,9 @@ export default function Terms() {
 
             <h3>15. Contact Information</h3>
 
-            <p>
-              Email: <b>support.br30trader@gmail.com</b>
-              <br />
-              Phone: <b>+91 6200986380</b>
-            </p>
-
             <hr />
 
             <p>Funded & Built by Mukesh Raj | BR30 Group</p>
-
-            <Link to="/" className="btn">
-              ← Back to Home
-            </Link>
           </div>
         </div>
       </main>

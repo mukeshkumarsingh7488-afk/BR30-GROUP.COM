@@ -23,7 +23,7 @@ export default function Vision() {
             </div>
 
             <aside className="vision-image">
-              <img loading="lazy" decoding="async" src="/image/BR30Group%20Vision%20Poster.png" alt="BR30 GROUP digital brand ecosystem" />
+              <img loading="lazy" decoding="async" src="/image/BR30-group-vision-poster.png" alt="BR30 GROUP digital brand ecosystem" />
 
               <div className="vi-caption">
                 <span>BR30 GROUP • Digital Network</span>
