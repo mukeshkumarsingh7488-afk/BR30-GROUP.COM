@@ -81,10 +81,10 @@ export default function Services() {
 
           <div className="cta-box">
             <h2>Ready To Build Your Next Project?</h2>
-            <p>Whether you need a website, TradingView indicator, branding package, automation system, or complete digital solution, BR30 Services is ready to help.</p>
+            <p>Whether you need a website, TradingView indicator, branding package, automation system, or complete digital solution, BR30 Services Team is ready to help.</p>
             <div className="cta-actions">
               <a href="https://br30crm-com-f.vercel.app/public/forms/6ac4a4ce8ab8658ebe3748f7/br30-group-service-request?utm_source=br30-group-web&utm_medium=website&lead_source=br30-group-web&form_id=6ac702676ca9142e6f794ca2&source_id=6ac702c56ca9142e6f794cab">
-              Create a service request →
+              Contact Us →
               </a>
               <a href="/" className="secondary-btn">
                 Explore BR30 Group
