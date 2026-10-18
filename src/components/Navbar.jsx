@@ -166,7 +166,7 @@ export default function Navbar() {
                   <i className="fa-solid fa-users"></i>
                 </span>
                 <div>
-                  <strong>BR30 Talent</strong>
+                  <strong>BR30 Talent Pipeline</strong>
                   <small>Talent Network</small>
                 </div>
               </a>
