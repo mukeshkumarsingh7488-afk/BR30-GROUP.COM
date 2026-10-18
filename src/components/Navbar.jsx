@@ -160,6 +160,16 @@ export default function Navbar() {
                   <small>Private Algo System</small>
                 </div>
               </a>
+
+              <a href="https://br30talentpipelinef.vercel.app/" target="_blank" rel="noreferrer" onClick={() => setOpen(false)}>
+                <span>
+                  <i className="fa-solid fa-users"></i>
+                </span>
+                <div>
+                  <strong>BR30 Talent</strong>
+                  <small>Talent Network</small>
+                </div>
+              </a>
             </div>
           </div>
         </div>

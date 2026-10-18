@@ -11,6 +11,7 @@ export default function Manifesto() {
     algo: "https://br30algo-com.vercel.app/",
     services: "/services",
     founder: "https://br30-com.vercel.app/",
+    tilent: "https://br30talentpipelinef.vercel.app/",
   };
 
   return (
@@ -137,6 +138,16 @@ export default function Manifesto() {
                   BR30 Founder
                 </a>{" "}
                 is the personal portfolio of Mukesh Raj, documenting the journey behind BR30 across technology, trading, entrepreneurship, digital products, and the continuous process of building a larger independent digital ecosystem.
+              </p>
+            </li>
+
+            <li className="demand">
+              <span className="d-num">1</span>
+              <p className="d-text">
+                <a href={links.tilent} target="_blank" rel="noreferrer" className="brand-link">
+                  BR30 Talent Pipeline
+                </a>{" "}
+                is BR30 Group’s talent platform, allowing applicants to submit their professional details and helping the team discover talent for future opportunities.
               </p>
             </li>
           </ol>
