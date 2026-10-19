@@ -59,6 +59,9 @@ export default function Indicators() {
     ["BR30 Zig Zag Channels", "Automatic Zig Zag channel and market structure visualization.", "Zig Zag"],
     ["BR30 ICT Imbalances Pro", "ICT-based Fair Value Gaps, Volume Imbalances, Liquidity Voids, and market inefficiency detection.", "ICT"],
     ["BR30 BTST 5m", "BTST and STBT signal indicator for Indian markets, designed to identify closing-hour momentum after 3:00 PM for potential next-day gap-up or gap-down opportunities.", "BTST"],
+    ["BR30 Market Cipher B", "Multi-layer momentum oscillator featuring WaveTrend, fast and slow Money Flow, RSI, Stochastic RSI, bullish and bearish divergence detection, and potential market top and bottom signals.", "Momentum"],
+    ["BR30 EMA Ribbon", "Trend-following indicator featuring eight customizable Exponential Moving Averages (EMAs) to visualize trend direction, momentum strength, dynamic support and resistance, pullback opportunities, and potential trend changes across multiple markets and timeframes.", "Trend"],
+    ["BR30 Supply and Demand Daily", "Volume-based indicator that identifies potential daily supply and demand zones using price ranges and lower-timeframe volume data, with customizable zone thresholds, resolution, colors, average levels, and volume-weighted average levels.", "Supply & Demand"],
   ];
 
   const [search, setSearch] = useState("");
