@@ -142,7 +142,7 @@ export default function Manifesto() {
             </li>
 
             <li className="demand">
-              <span className="d-num">1</span>
+              <span className="d-num">12</span>
               <p className="d-text">
                 <a href={links.tilent} target="_blank" rel="noreferrer" className="brand-link">
                   BR30 Talent Pipeline
